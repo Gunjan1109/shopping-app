@@ -26,7 +26,7 @@ const Product = ({ data }) => {
               <p>{cartItems[data.id]}</p>
               <button onClick={() => addToCart(data.id)}>+</button>
             </div>
-            <HashLink to="/ecommerce-react-app/cart" className="shadow-3xl p-1 leading-none text-light-100 hover:bg-light-100 hover:text-white">
+            <HashLink to="/cart" className="shadow-3xl p-1 leading-none text-light-100 hover:bg-light-100 hover:text-white">
               <ShoppingCartIcon />
             </HashLink>
           </div>

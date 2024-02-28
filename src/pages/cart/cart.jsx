@@ -61,7 +61,7 @@ const Cart = () => {
                 <div className="flex flex-col smaller:flex-row tb:flex-col xl:flex-row justify-center gap-4 mt-2 ">
                   <button className="p-2 border border-dark-100 xs:flex-2 hover:bg-dark-100 hover:text-white">
                     <HashLink
-                      to="/ecommerce-react-app/#products"
+                      to="/#products"
                       className="tracking-wider"
                     >
                       <ArrowCircleLeftIcon className="mr-3" />
@@ -84,7 +84,7 @@ const Cart = () => {
 
             <button className="p-2 border border-dark-100 text-light-100 hover:bg-light-100 hover:text-white">
               <HashLink
-                to="/ecommerce-react-app/#products"
+                to="/#products"
                 className="tracking-wider"
               >
                 <ArrowCircleLeftIcon className="mr-2" />

@@ -48,7 +48,7 @@ const Shop = () => {
               nisi ut aliquip ex ea commodo consequat.
             </p>
             <button className="primary-btn">
-              <HashLink to="/ecommerce-react-app/#category">Explore More</HashLink>
+              <HashLink to="/#category">Explore More</HashLink>
             </button>
           </div>
 
@@ -66,7 +66,7 @@ const Shop = () => {
           <div className="bg-[url('/src/assets/banner/card3.png')] bg-cover mb-5 bg-pos-1 h-s18 rounded-lg tb:h-s19 tb:rounded-2xl overflow-hidden">
             <h1 className="primary-heading h-full flex flex-col justify-center items-center cursor-pointer text-white bg-dark-100 hover:bg-dark-200">
               <HashLink
-                to="/ecommerce-react-app/#products"
+                to="/#products"
                 onClick={() => {
                   handleCategoryCards("type1");
                 }}
@@ -80,7 +80,7 @@ const Shop = () => {
             <div className="bg-[url('/src/assets/banner/card1.jpg')] bg-cover mb-5 bg-pos-2 tb:flex-1 h-s18 rounded-lg tb:h-s19 tb:rounded-2xl overflow-hidden">
               <h1 className="primary-heading h-full flex flex-col justify-center items-center cursor-pointer text-white bg-dark-100 hover:bg-dark-200">
                 <HashLink
-                  to="/ecommerce-react-app/#products"
+                  to="/#products"
                   onClick={() => {
                     handleCategoryCards("type2");
                   }}
@@ -93,7 +93,7 @@ const Shop = () => {
             <div className="bg-[url('/src/assets/banner/card2.jpg')] bg-cover mb-5 bg-pos-2 tb:flex-1 h-s18 rounded-lg tb:h-s19 tb:rounded-2xl overflow-hidden">
               <h1 className="primary-heading h-full flex flex-col justify-center items-center cursor-pointer text-white bg-dark-100 hover:bg-dark-200">
                 <HashLink
-                  to="/ecommerce-react-app/#products"
+                  to="/#products"
                   onClick={() => {
                     handleCategoryCards("type3");
                   }}

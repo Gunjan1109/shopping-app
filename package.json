@@ -1,6 +1,5 @@
 {
   "name": "ecommerce-app",
-  "homepage": "https://Gunjan1109.github.io/ecommerce-react-app/",
   "version": "0.1.0",
   "dependencies": {
     "@emotion/react": "^11.11.1",

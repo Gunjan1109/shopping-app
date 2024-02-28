@@ -10,16 +10,16 @@ const Navbar = () => {
   return (
     <div className={` ${isNavOpen && 'nav-open' }`}>
       <div className="flex justify-between items-end tracking-wide text-base tb:text-xsmall md:w-s6 xxxl:w-s5 mx-auto px-s7 pt-s9 pb-s8 font-medium">
-        <Link to="/ecommerce-react-app/" className="">
+        <Link to="/" className="">
           Home
         </Link>
 
         <div className="desktop-view">
-          <HashLink to="/ecommerce-react-app/#about" className="mx-s11">About</HashLink>
-          <HashLink to="/ecommerce-react-app/#category" className="mx-s11">Category</HashLink>
-          <HashLink to="/ecommerce-react-app/#products" className="mx-s11">Products</HashLink>
+          <HashLink to="/#about" className="mx-s11">About</HashLink>
+          <HashLink to="/#category" className="mx-s11">Category</HashLink>
+          <HashLink to="/#products" className="mx-s11">Products</HashLink>
         </div>
-        <Link to="/ecommerce-react-app/cart" className="desktop-view">
+        <Link to="/cart" className="desktop-view">
           Cart
         </Link>
 
@@ -28,10 +28,10 @@ const Navbar = () => {
         {isNavOpen === true ? (
           <>
             <div className="mobile-view flex flex-col w-full absolute top-0 left-0 py-s16 px-s7 h-screen bg-white">
-              <HashLink to="/ecommerce-react-app/#about"  className="pb-1 mb-1 border-b-2 border-transparent hover:border-dark" onClick={() => setIsNavOpen(false)}>About</HashLink>
-              <HashLink to="/ecommerce-react-app/#category" className="pb-1 mb-1 border-b-2 border-transparent hover:border-dark" onClick={() => setIsNavOpen(false)}>Category</HashLink>
-              <HashLink to="/ecommerce-react-app/#products" className="pb-1 mb-1 border-b-2 border-transparent hover:border-dark" onClick={() => setIsNavOpen(false)}>Products</HashLink>
-              <Link to="/ecommerce-react-app/cart" className="pb-1 mb-1 border-b-2 border-transparent hover:border-dark" onClick={() => setIsNavOpen(false)}>
+              <HashLink to="/#about"  className="pb-1 mb-1 border-b-2 border-transparent hover:border-dark" onClick={() => setIsNavOpen(false)}>About</HashLink>
+              <HashLink to="/#category" className="pb-1 mb-1 border-b-2 border-transparent hover:border-dark" onClick={() => setIsNavOpen(false)}>Category</HashLink>
+              <HashLink to="/#products" className="pb-1 mb-1 border-b-2 border-transparent hover:border-dark" onClick={() => setIsNavOpen(false)}>Products</HashLink>
+              <Link to="/cart" className="pb-1 mb-1 border-b-2 border-transparent hover:border-dark" onClick={() => setIsNavOpen(false)}>
                 Cart
               </Link>
             </div>
